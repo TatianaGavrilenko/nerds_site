@@ -1,0 +1,396 @@
+@media (max-width: 1024px){
+   .content{
+        background-position: 333px 33px;
+        background-size: contain;
+        height: 345px;
+        background-size: 443px;
+    }
+
+    .slider__text2{
+        background-position: 319px -5px;
+        background-size: 500px;
+    }
+
+    .slider__text3{
+        background-position: 340px 30;
+        background-size: 445px;
+    }
+
+    .academy,
+    .borodinsky,
+    .pink{
+        border: none;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    .form-writeus{
+        right: 135px;
+    }
+}
+
+@media (max-width: 768px){
+    .active{
+        margin: 10%;
+    }
+
+    .nav a{
+        color: #ffff;
+        padding: 13px;
+    }
+
+    .nav a:hover{
+        display: inline-block;
+        background-color: #000;
+    }
+
+   .nav li:hover>ul{
+        position: relative;
+        left: 41.5%;
+    }
+
+    .nav .menu_subitem:hover{
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .nav ul,
+    .nav li>ul{
+        display: block;
+    }
+
+    #menu__toggle {
+        display: none;
+    }
+
+    .menu__btn {
+        display: flex; 
+        align-items: center;  
+        position: fixed;
+        top: 20px;
+        left: 7px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 7;
+    }
+      
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #000001;
+    }
+
+    .menu__btn > span::before {
+        content: '';
+        top: -8px;
+        z-index: 7;
+    }
+
+    .menu__btn > span::after {
+        content: '';
+        top: 8px;
+        z-index: 7;
+    }
+
+    .menuham {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        margin: 0;
+        padding: 80px 0;
+        text-align: center;
+        background-color: #000000;
+        z-index: 5;
+        border-radius: 10px;
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked ~ .menuham {
+        visibility: visible;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.70;
+    }
+
+    .content{
+        background-position: 213px 33px;
+        background-size: 400px;
+        height: 315px;
+        margin-top: -40px;
+    }
+
+    .slider__text2{
+        background-position: 224px 45px;
+        background-size: 390px;
+    }
+
+    .slider__text3{
+        background-position: 222px 60px;
+        background-size: 400px;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    button{
+        width: 140px;
+    }
+
+    .advantage_item p{
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+   .rightcolumn{
+        background-size: 258px;
+    }
+
+    .studio-caption {
+        margin-bottom: 15px;
+        margin-top:55px;
+    }
+
+    .studio-data{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .logos_icons{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .address{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .address .container{
+        height: unset;
+    }
+
+    .address iframe{
+        position: unset;
+    }
+    
+    .address-form{
+        position: unset;
+        width: 250px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .form-wrapper{
+        display: block;
+    }
+
+    .form-writeus{
+        right: 195px;
+        width: 286px;
+    }
+
+    .form-writeus .email{
+        margin-left: 0;
+    }
+
+    .form-writeus .message{
+        margin-top: 0;
+    }
+
+    .form-writeus textarea{
+        width: 312px;
+    }
+
+    .close{
+        right: 30px;
+    }
+
+    .footer .wrapper{
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .footer-vk,
+    .footer-fb,
+    .footer-instagram{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .footer-vk{
+        background-position: 24px 34px;
+    }
+
+    .footer-fb{
+        background-position: 32px 30px;
+    }
+    
+    .footer-instagram{
+        background-position: 28px 30px;
+    }
+
+    .footer-icons{
+        justify-content: center;
+    }
+
+    .footer-text h3{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 425px){
+    body{
+        font-size: 15px;;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .ctive{
+        margin: 15%;
+    }
+
+    .slide_paragraph{
+        width: 205px;
+        font-size: 16px;
+    }
+
+    .slider_text1{
+        margin-top: 0;
+    }
+
+    button{
+        width: 130px;
+        height: 39px;
+        margin-top: 10px;
+    }
+
+    .content{
+        background-position: 45px 140px;
+        background-size: 255px;
+        height: 315px;
+    }
+
+    .slider__text2{
+        background-position: 57px 144px;
+        background-size:242px;
+    }
+
+    .slider__text3{
+        background-position: 73px 148px;
+        background-size: 227px;
+    }
+
+    .advantages_list{
+        flex-direction: column;
+    }
+
+    .advantage_item,
+    .advantage_item p,
+    .advantage_title{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .advantage_item:not(:first-child){
+        margin-top: 0;
+    }
+
+    .leftcolumn{
+        width: 100%;
+    }
+
+    .leftcolumn h3{
+        font-size: 22px;
+    }
+
+    .studio .wrapper{
+        display: block;
+        margin-top: -10px;
+    }
+
+    .leftcolumn ul > .bottom::before{
+        position: absolute;
+        content:  "___";
+        left: -26px;
+        bottom: 46px;
+    }
+
+    .leftcolumn .studio-p {
+        font-size: 18px;
+    }
+
+    .form-writeus{
+        right: 7px;
+    }
+}
+
+@media (max-width: 320px){
+    .active{
+        margin: 0;
+    }
+
+    .content,
+    .slider__text2,
+    .slider__text3{
+        background-size: 210px;
+        background-position: 45px 96px
+    }
+
+    .form-writeus{
+        top: 37px;
+        padding: 10px;
+    }
+
+    .leftcolumn ul > .middle::before{
+        position: absolute;
+        content:  "___";
+        left: -26px;
+        bottom: 46px;
+    }
+
+    .leftcolumn .studio-p {
+        font-size: 17px;
+    }
+
+    .form-writeus input[type="text"], 
+    .form-writeus input[type="email"]{
+        width: 274px;
+        height: 30px;
+    }
+
+    .form-writeus textarea{
+        width: 278px;
+    }
+
+    .close{
+        right: 12px;
+        top: 0;
+    }
+}
